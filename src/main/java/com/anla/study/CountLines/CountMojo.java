@@ -18,7 +18,7 @@ import org.apache.maven.plugins.annotations.Mojo;
  * @author U-ANLA
  *
  */
-@Mojo(name = "count")
+//@Mojo(name = "counts")
 public class CountMojo extends AbstractMojo{
 
 	private static final String[] INCLUDES_DEFAULT = {"java","xml","properties"};
